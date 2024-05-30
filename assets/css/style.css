@@ -69,12 +69,12 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 230px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 0 15px;
-  background: #BDBDBD;
+  padding: 0 15px;  
+  background: #748c70;
   overflow-y: auto;
 }
 
@@ -97,14 +97,14 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: #000000;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #cbd3bd;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -128,7 +128,7 @@ h6 {
 
 @media (max-width: 1199px) {
   #header {
-    left: -300px;
+    left: -250px;
   }
 
   #main {
@@ -162,13 +162,13 @@ h6 {
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .nav-menu a i {
-  font-size: 24px;
+  font-size: 20px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #000000;
 }
 
 .nav-menu a:hover,
@@ -181,7 +181,7 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active>a i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #cebdab;
 }
 
 /* Mobile Navigation */
@@ -250,6 +250,14 @@ h6 {
   line-height: 56px;
   color: #fff;
 }
+
+
+/* .custom-move {
+  position: relative;
+  left: 10px; /* 오른쪽으로 이동. 왼쪽으로 이동하려면 -10px 사용 */
+} */
+
+
 
 #hero p {
   color: #fff;
